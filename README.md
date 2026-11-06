@@ -2,7 +2,7 @@
 
 The on-device decision model used by Finper's voice assistant. It reads a short spoken phrase in Spanish and classifies it into an action of the app. It does not generate text.
 
-- **File:** `finper-decide-Q8_0.gguf`, published under [Releases](https://github.com/cgalvar/finper-julia/releases)
+- **File:** `finper-decide-v10.gguf`, published under [Releases](https://github.com/cgalvar/finper-julia/releases)
 - **Format:** GGUF, Q8_0, mean pooling set in its metadata
 - **Size:** 164,197,024 bytes
 - **SHA-256 (v10):** `d8cbb36275da3e692c92e48380897328ec77a26bb722a18db5ee6138b8f895df`
