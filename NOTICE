@@ -1,0 +1,7 @@
+Finper Julia
+Fine-tuned from Julia 1 by Supersonic Labs (https://huggingface.co/SupersonicLabs/Julia-1),
+licensed under the Apache License 2.0. This model was modified by fine-tuning its
+encoder on new data and quantizing it to GGUF Q8_0.
+
+Julia 1 is based on mmBERT-small by the Johns Hopkins University CLSP
+(https://huggingface.co/jhu-clsp/mmBERT-small), licensed under the MIT License.
