@@ -2,10 +2,10 @@
 
 The on-device decision model used by Finper's voice assistant. It reads a short spoken phrase in Spanish and classifies it into an action of the app. It does not generate text.
 
-- **File:** `finper-decide-v14.gguf`, published under [Releases](https://github.com/cgalvar/finper-julia/releases)
+- **File:** `finper-decide-v16.gguf`, published under [Releases](https://github.com/cgalvar/finper-julia/releases)
 - **Format:** GGUF, Q8_0, mean pooling set in its metadata
 - **Size:** 164,197,024 bytes
-- **SHA-256 (v14):** `bb1960c6e353e86191f36e5f96e3d062690934c87de80c075a35678f82282d0f`
+- **SHA-256 (v16):** `0790d3fbb99304fb378c63b7deef9140c6212097e99c14f53268aa59dc92bf81`
 
 Since v14 the phrase is cleaned before the model reads it, in training and in the app: lowercase, no vowel accents (ñ stays), no punctuation except inside numbers.
 
